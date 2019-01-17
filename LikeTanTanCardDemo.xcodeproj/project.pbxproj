@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6024745B214F8098000AD678 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6024745A214F8098000AD678 /* AppDelegate.m */; };
+		6024745E214F8098000AD678 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6024745D214F8098000AD678 /* ViewController.m */; };
+		60247461214F8098000AD678 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6024745F214F8098000AD678 /* Main.storyboard */; };
+		60247463214F809B000AD678 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60247462214F809B000AD678 /* Assets.xcassets */; };
+		60247466214F809B000AD678 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60247464214F809B000AD678 /* LaunchScreen.storyboard */; };
+		60247469214F809B000AD678 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60247468214F809B000AD678 /* main.m */; };
+		60247473214F809B000AD678 /* LikeTanTanCardDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60247472214F809B000AD678 /* LikeTanTanCardDemoTests.m */; };
+		6024747E214F809B000AD678 /* LikeTanTanCardDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6024747D214F809B000AD678 /* LikeTanTanCardDemoUITests.m */; };
+		6024748E214F8255000AD678 /* SHFBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6024748D214F8255000AD678 /* SHFBaseTableView.m */; };
+		6024749A214F8318000AD678 /* SHFCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60247494214F8318000AD678 /* SHFCardView.m */; };
+		6024749B214F8318000AD678 /* SHFTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60247495214F8318000AD678 /* SHFTableHeaderView.m */; };
+		6024749C214F8318000AD678 /* SHFTopCardBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60247496214F8318000AD678 /* SHFTopCardBannerView.m */; };
+		602474A6214F9080000AD678 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 602474A2214F9080000AD678 /* 4.jpg */; };
+		602474A7214F9080000AD678 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 602474A3214F9080000AD678 /* 2.jpg */; };
+		602474A8214F9080000AD678 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 602474A4214F9080000AD678 /* 3.jpg */; };
+		602474A9214F9080000AD678 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 602474A5214F9080000AD678 /* 1.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6024746F214F809B000AD678 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6024744E214F8098000AD678 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60247455214F8098000AD678;
+			remoteInfo = LikeTanTanCardDemo;
+		};
+		6024747A214F809B000AD678 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6024744E214F8098000AD678 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60247455214F8098000AD678;
+			remoteInfo = LikeTanTanCardDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60247456214F8098000AD678 /* LikeTanTanCardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LikeTanTanCardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60247459214F8098000AD678 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6024745A214F8098000AD678 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6024745C214F8098000AD678 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6024745D214F8098000AD678 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		60247460214F8098000AD678 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60247462214F809B000AD678 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60247465214F809B000AD678 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60247467214F809B000AD678 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60247468214F809B000AD678 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6024746E214F809B000AD678 /* LikeTanTanCardDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LikeTanTanCardDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60247472214F809B000AD678 /* LikeTanTanCardDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LikeTanTanCardDemoTests.m; sourceTree = "<group>"; };
+		60247474214F809B000AD678 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60247479214F809B000AD678 /* LikeTanTanCardDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LikeTanTanCardDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6024747D214F809B000AD678 /* LikeTanTanCardDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LikeTanTanCardDemoUITests.m; sourceTree = "<group>"; };
+		6024747F214F809B000AD678 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6024748C214F8255000AD678 /* SHFBaseTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHFBaseTableView.h; sourceTree = "<group>"; };
+		6024748D214F8255000AD678 /* SHFBaseTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHFBaseTableView.m; sourceTree = "<group>"; };
+		60247490214F8318000AD678 /* SHFTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHFTableHeaderView.h; sourceTree = "<group>"; };
+		60247491214F8318000AD678 /* SHFTopCardBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHFTopCardBannerView.h; sourceTree = "<group>"; };
+		60247494214F8318000AD678 /* SHFCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHFCardView.m; sourceTree = "<group>"; };
+		60247495214F8318000AD678 /* SHFTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHFTableHeaderView.m; sourceTree = "<group>"; };
+		60247496214F8318000AD678 /* SHFTopCardBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHFTopCardBannerView.m; sourceTree = "<group>"; };
+		60247497214F8318000AD678 /* SHFCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHFCardView.h; sourceTree = "<group>"; };
+		6024749F214F84B6000AD678 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		602474A2214F9080000AD678 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		602474A3214F9080000AD678 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		602474A4214F9080000AD678 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		602474A5214F9080000AD678 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60247453214F8098000AD678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6024746B214F809B000AD678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60247476214F809B000AD678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6024744D214F8098000AD678 = {
+			isa = PBXGroup;
+			children = (
+				60247458214F8098000AD678 /* LikeTanTanCardDemo */,
+				60247471214F809B000AD678 /* LikeTanTanCardDemoTests */,
+				6024747C214F809B000AD678 /* LikeTanTanCardDemoUITests */,
+				60247457214F8098000AD678 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60247457214F8098000AD678 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60247456214F8098000AD678 /* LikeTanTanCardDemo.app */,
+				6024746E214F809B000AD678 /* LikeTanTanCardDemoTests.xctest */,
+				60247479214F809B000AD678 /* LikeTanTanCardDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60247458214F8098000AD678 /* LikeTanTanCardDemo */ = {
+			isa = PBXGroup;
+			children = (
+				60247459214F8098000AD678 /* AppDelegate.h */,
+				6024745A214F8098000AD678 /* AppDelegate.m */,
+				6024745C214F8098000AD678 /* ViewController.h */,
+				6024745D214F8098000AD678 /* ViewController.m */,
+				6024748B214F80AD000AD678 /* View */,
+				6024745F214F8098000AD678 /* Main.storyboard */,
+				60247462214F809B000AD678 /* Assets.xcassets */,
+				60247464214F809B000AD678 /* LaunchScreen.storyboard */,
+				60247467214F809B000AD678 /* Info.plist */,
+				60247468214F809B000AD678 /* main.m */,
+				6024749F214F84B6000AD678 /* PrefixHeader.pch */,
+			);
+			path = LikeTanTanCardDemo;
+			sourceTree = "<group>";
+		};
+		60247471214F809B000AD678 /* LikeTanTanCardDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				60247472214F809B000AD678 /* LikeTanTanCardDemoTests.m */,
+				60247474214F809B000AD678 /* Info.plist */,
+			);
+			path = LikeTanTanCardDemoTests;
+			sourceTree = "<group>";
+		};
+		6024747C214F809B000AD678 /* LikeTanTanCardDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6024747D214F809B000AD678 /* LikeTanTanCardDemoUITests.m */,
+				6024747F214F809B000AD678 /* Info.plist */,
+			);
+			path = LikeTanTanCardDemoUITests;
+			sourceTree = "<group>";
+		};
+		6024748B214F80AD000AD678 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				602474A1214F9080000AD678 /* Image */,
+				6024748F214F8318000AD678 /* CardBannerView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6024748F214F8318000AD678 /* CardBannerView */ = {
+			isa = PBXGroup;
+			children = (
+				60247490214F8318000AD678 /* SHFTableHeaderView.h */,
+				60247495214F8318000AD678 /* SHFTableHeaderView.m */,
+				60247491214F8318000AD678 /* SHFTopCardBannerView.h */,
+				60247496214F8318000AD678 /* SHFTopCardBannerView.m */,
+				60247497214F8318000AD678 /* SHFCardView.h */,
+				60247494214F8318000AD678 /* SHFCardView.m */,
+				6024748C214F8255000AD678 /* SHFBaseTableView.h */,
+				6024748D214F8255000AD678 /* SHFBaseTableView.m */,
+			);
+			path = CardBannerView;
+			sourceTree = "<group>";
+		};
+		602474A1214F9080000AD678 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				602474A2214F9080000AD678 /* 4.jpg */,
+				602474A3214F9080000AD678 /* 2.jpg */,
+				602474A4214F9080000AD678 /* 3.jpg */,
+				602474A5214F9080000AD678 /* 1.jpg */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60247455214F8098000AD678 /* LikeTanTanCardDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60247482214F809B000AD678 /* Build configuration list for PBXNativeTarget "LikeTanTanCardDemo" */;
+			buildPhases = (
+				60247452214F8098000AD678 /* Sources */,
+				60247453214F8098000AD678 /* Frameworks */,
+				60247454214F8098000AD678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LikeTanTanCardDemo;
+			productName = LikeTanTanCardDemo;
+			productReference = 60247456214F8098000AD678 /* LikeTanTanCardDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6024746D214F809B000AD678 /* LikeTanTanCardDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60247485214F809B000AD678 /* Build configuration list for PBXNativeTarget "LikeTanTanCardDemoTests" */;
+			buildPhases = (
+				6024746A214F809B000AD678 /* Sources */,
+				6024746B214F809B000AD678 /* Frameworks */,
+				6024746C214F809B000AD678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60247470214F809B000AD678 /* PBXTargetDependency */,
+			);
+			name = LikeTanTanCardDemoTests;
+			productName = LikeTanTanCardDemoTests;
+			productReference = 6024746E214F809B000AD678 /* LikeTanTanCardDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60247478214F809B000AD678 /* LikeTanTanCardDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60247488214F809B000AD678 /* Build configuration list for PBXNativeTarget "LikeTanTanCardDemoUITests" */;
+			buildPhases = (
+				60247475214F809B000AD678 /* Sources */,
+				60247476214F809B000AD678 /* Frameworks */,
+				60247477214F809B000AD678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6024747B214F809B000AD678 /* PBXTargetDependency */,
+			);
+			name = LikeTanTanCardDemoUITests;
+			productName = LikeTanTanCardDemoUITests;
+			productReference = 60247479214F809B000AD678 /* LikeTanTanCardDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6024744E214F8098000AD678 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = sunhongfu;
+				TargetAttributes = {
+					60247455214F8098000AD678 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					6024746D214F809B000AD678 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 60247455214F8098000AD678;
+					};
+					60247478214F809B000AD678 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 60247455214F8098000AD678;
+					};
+				};
+			};
+			buildConfigurationList = 60247451214F8098000AD678 /* Build configuration list for PBXProject "LikeTanTanCardDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6024744D214F8098000AD678;
+			productRefGroup = 60247457214F8098000AD678 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60247455214F8098000AD678 /* LikeTanTanCardDemo */,
+				6024746D214F809B000AD678 /* LikeTanTanCardDemoTests */,
+				60247478214F809B000AD678 /* LikeTanTanCardDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60247454214F8098000AD678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				602474A6214F9080000AD678 /* 4.jpg in Resources */,
+				60247466214F809B000AD678 /* LaunchScreen.storyboard in Resources */,
+				602474A7214F9080000AD678 /* 2.jpg in Resources */,
+				602474A8214F9080000AD678 /* 3.jpg in Resources */,
+				60247463214F809B000AD678 /* Assets.xcassets in Resources */,
+				60247461214F8098000AD678 /* Main.storyboard in Resources */,
+				602474A9214F9080000AD678 /* 1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6024746C214F809B000AD678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60247477214F809B000AD678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60247452214F8098000AD678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6024749B214F8318000AD678 /* SHFTableHeaderView.m in Sources */,
+				6024748E214F8255000AD678 /* SHFBaseTableView.m in Sources */,
+				6024749C214F8318000AD678 /* SHFTopCardBannerView.m in Sources */,
+				6024745E214F8098000AD678 /* ViewController.m in Sources */,
+				6024749A214F8318000AD678 /* SHFCardView.m in Sources */,
+				60247469214F809B000AD678 /* main.m in Sources */,
+				6024745B214F8098000AD678 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6024746A214F809B000AD678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60247473214F809B000AD678 /* LikeTanTanCardDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60247475214F809B000AD678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6024747E214F809B000AD678 /* LikeTanTanCardDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60247470214F809B000AD678 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60247455214F8098000AD678 /* LikeTanTanCardDemo */;
+			targetProxy = 6024746F214F809B000AD678 /* PBXContainerItemProxy */;
+		};
+		6024747B214F809B000AD678 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60247455214F8098000AD678 /* LikeTanTanCardDemo */;
+			targetProxy = 6024747A214F809B000AD678 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6024745F214F8098000AD678 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60247460214F8098000AD678 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60247464214F809B000AD678 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60247465214F809B000AD678 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60247480214F809B000AD678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		60247481214F809B000AD678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60247483214F809B000AD678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37DVJX7M39;
+				GCC_PREFIX_HEADER = "/Users/sunhongfu/Desktop/历史项目/SHFLikeTanTanCardDemo/LikeTanTanCardDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = LikeTanTanCardDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sunhongfu.LikeTanTanCardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60247484214F809B000AD678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37DVJX7M39;
+				GCC_PREFIX_HEADER = "/Users/sunhongfu/Desktop/历史项目/SHFLikeTanTanCardDemo/LikeTanTanCardDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = LikeTanTanCardDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sunhongfu.LikeTanTanCardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		60247486214F809B000AD678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37DVJX7M39;
+				INFOPLIST_FILE = LikeTanTanCardDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sunhongfu.LikeTanTanCardDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LikeTanTanCardDemo.app/LikeTanTanCardDemo";
+			};
+			name = Debug;
+		};
+		60247487214F809B000AD678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37DVJX7M39;
+				INFOPLIST_FILE = LikeTanTanCardDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sunhongfu.LikeTanTanCardDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LikeTanTanCardDemo.app/LikeTanTanCardDemo";
+			};
+			name = Release;
+		};
+		60247489214F809B000AD678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37DVJX7M39;
+				INFOPLIST_FILE = LikeTanTanCardDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sunhongfu.LikeTanTanCardDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LikeTanTanCardDemo;
+			};
+			name = Debug;
+		};
+		6024748A214F809B000AD678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37DVJX7M39;
+				INFOPLIST_FILE = LikeTanTanCardDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sunhongfu.LikeTanTanCardDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LikeTanTanCardDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60247451214F8098000AD678 /* Build configuration list for PBXProject "LikeTanTanCardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60247480214F809B000AD678 /* Debug */,
+				60247481214F809B000AD678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60247482214F809B000AD678 /* Build configuration list for PBXNativeTarget "LikeTanTanCardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60247483214F809B000AD678 /* Debug */,
+				60247484214F809B000AD678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60247485214F809B000AD678 /* Build configuration list for PBXNativeTarget "LikeTanTanCardDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60247486214F809B000AD678 /* Debug */,
+				60247487214F809B000AD678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60247488214F809B000AD678 /* Build configuration list for PBXNativeTarget "LikeTanTanCardDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60247489214F809B000AD678 /* Debug */,
+				6024748A214F809B000AD678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6024744E214F8098000AD678 /* Project object */;
+}
